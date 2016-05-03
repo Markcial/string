@@ -18,7 +18,7 @@ function str -d "manipulate strings" -a cmd
 
     switch "$cmd"
         case sub
-            if not functions -q __string_sub
+            # if not functions -q __string_sub
                 function __string_sub -a start len
                     set -e argv[1..2]
 
@@ -53,7 +53,7 @@ function str -d "manipulate strings" -a cmd
                         '
                     end
                 end
-            end
+            # end
 
             set -l len -1
             set -l start 1
@@ -98,7 +98,7 @@ function str -d "manipulate strings" -a cmd
 
                             {
                                 len = length($0)
-                                
+
                                 if (quiet == 0) {
                                     print(len)
                                 }
