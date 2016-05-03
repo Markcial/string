@@ -1,26 +1,26 @@
 [![Build Status][travis-badge]][travis-link]
 [![Slack Room][slack-badge]][slack-link]
 
-# {{PLUGIN-NAME}}
+# String
 
-{{PLUGIN-DESCRIPTION}}
+fish `string` builtin shim library.
 
 ## Install
 
 With [fisherman]
 
 ```
-fisher {{PLUGIN-NAME}}
+fisher string
 ```
 
 ## Usage
 
 ```fish
-{{PLUGIN-NAME}}
+
 ```
 
-[travis-link]: https://travis-ci.org/{{OWNER-NAME}}/{{PLUGIN-NAME}}
-[travis-badge]: https://img.shields.io/travis/{{OWNER-NAME}}/{{PLUGIN-NAME}}.svg
+[travis-link]: https://travis-ci.org/fisherman/string
+[travis-badge]: https://img.shields.io/travis/fisherman/string.svg
 [slack-link]: https://fisherman-wharf.herokuapp.com
 [slack-badge]: https://fisherman-wharf.herokuapp.com/badge.svg
 [fisherman]: https://github.com/fisherman/fisherman
